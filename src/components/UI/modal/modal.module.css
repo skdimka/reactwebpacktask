@@ -1,0 +1,37 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+}
+
+.myModalContent {
+    padding: 10px 20px;
+    background: white;
+    border-radius: 16px;
+    min-width: 400px;
+} 
+
+.myModalHeader {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+} 
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.btnClose {
+    margin-left: auto;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: none;
+    cursor: pointer;
+}
